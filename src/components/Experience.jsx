@@ -66,12 +66,12 @@ const Experience = () => {
       title: "Docker",
       style: "shadow-gray-400",
     },
-    {
-      id: 10,
-      src: bootstrap,
-      title: "bootstrap",
-      style: "shadow-gray-400",
-    },
+    // {
+    //   id: 10,
+    //   src: bootstrap,
+    //   title: "bootstrap",
+    //   style: "shadow-gray-400",
+    // },
   ];
 
   return (

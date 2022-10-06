@@ -1,21 +1,22 @@
-import './index.css';
-import Navbar from './compornts/NaveBar'
-import Home from './compornts/Home'
-import SocialLinks from './compornts/SocialLinks'
-import About from './compornts/About';
-import Protfolio from './compornts/Protfolio'
-import Experience from './compornts/Experience'
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import Portfolio from "./components/Portfolio";
+import SocialLinks from "./components/SocialLinks";
+
 function App() {
   return (
     <div >
-      <Navbar />
+      <NavBar />
       <Home />
-      <SocialLinks />
       <About />
-      <Protfolio />
+      <Portfolio />
       <Experience />
-      
-      
+      <Contact />
+
+      <SocialLinks />
     </div>
   );
 }
