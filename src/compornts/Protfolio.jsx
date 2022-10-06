@@ -1,12 +1,11 @@
-
 import toDo from "../assets/portfolio/To-Do-list.png";
 import drum from "../assets/portfolio/Drum.png";
 import elisa from "../assets/portfolio/Elisa.png";
 import dom from "../assets/portfolio/Dom.png";
 import dogsAPI from "../assets/portfolio/DogsAPI.png";
+import tindog from "../assets/portfolio/Tindog.png";
 
 const Protfolio = () => {
-
   const portfolios = [
     {
       id: 1,
@@ -27,6 +26,10 @@ const Protfolio = () => {
     {
       id: 5,
       src: dogsAPI,
+    },
+    {
+      id: 6,
+      src: tindog,
     },
   ];
   return (

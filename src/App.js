@@ -4,6 +4,7 @@ import Home from './compornts/Home'
 import SocialLinks from './compornts/SocialLinks'
 import About from './compornts/About';
 import Protfolio from './compornts/Protfolio'
+import Experience from './compornts/Experience'
 function App() {
   return (
     <div >
@@ -12,6 +13,8 @@ function App() {
       <SocialLinks />
       <About />
       <Protfolio />
+      <Experience />
+      
       
     </div>
   );
