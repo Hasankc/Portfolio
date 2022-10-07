@@ -25,7 +25,7 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          My main focus these days is Building accessible, inclusive products
+          My main focus these days is building accessible, inclusive products
           and digital experiences, beautiful pixels, and writing clean,
           accessible, human code.
         </p>
