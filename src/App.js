@@ -8,16 +8,16 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div >
+    <div>
       <NavBar />
       <Home />
       <About />
-      <Contact />
-      <Portfolio />
-      {/* <Experience />
-      
 
-      <SocialLinks /> */}
+      <Portfolio />
+      <Experience />
+
+      <Contact />
+      <SocialLinks />
     </div>
   );
 }
